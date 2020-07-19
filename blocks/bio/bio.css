@@ -1,0 +1,7 @@
+.bio {
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  box-shadow: #9f0000 0 5px 5px;
+  border-radius: 25%;
+}

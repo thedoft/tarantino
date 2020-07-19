@@ -1,0 +1,70 @@
+.movies {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+  background:
+    url(../images/jules.png) no-repeat top right,
+    url(../images/vinsent.png) no-repeat top left,
+    url(../images/aldo.png) no-repeat bottom left,
+    url(../images/doctor.png) no-repeat bottom right;
+  overflow: hidden;
+  }
+
+.movies__square-pic {
+  width: 200px;
+  height: 200px;
+  background-color: #9f0000;
+  border: black 5px solid;
+  box-shadow: #9f0000 0 0 10px;
+  z-index: -1;
+}
+
+.movies__square-pic_place_right {
+  position: absolute;
+  right: -150px;
+  top: 27.5%;
+}
+
+.movies:hover .movies__square-pic_place_right {
+  transition: transform 15s;
+  transform: rotate(-360deg);
+}
+
+.movies__square-pic_place_left {
+  position: absolute;
+  left: -150px;
+  bottom: 44%;
+}
+
+.movies:hover .movies__square-pic_place_left {
+  transition: transform 15s;
+  transform: rotate(360deg);
+}
+
+.movies__square-pic_place_bottom-right {
+  position: absolute;
+  right: 150px;
+  bottom: 15%;
+}
+
+.movies:hover .movies__square-pic_place_bottom-right {
+  transition: transform 30s;
+  transform: rotate(720deg);
+}
+
+.movies__square-pic_place_bottom-left {
+  position: absolute;
+  left: 150px;
+  bottom: 15%;
+}
+
+.movies:hover .movies__square-pic_place_bottom-left {
+  transition: transform 30s;
+  transform: rotate(-720deg);
+}
+
+.movies__title {
+  color: #9f0000;
+}

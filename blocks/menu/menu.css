@@ -1,0 +1,27 @@
+.menu {
+  text-align: right;
+  position: absolute;
+  top: 50px;
+  right: calc(30% + 100px);
+}
+
+.menu__link {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px 0 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 0 10px;
+}
+
+.menu__link:last-of-type {
+  margin: 0;
+}
+
+.menu__link:hover {
+  color: #9f0000;
+  text-shadow: white 0 0 1px;
+  box-shadow: white 0 0 5px;
+}

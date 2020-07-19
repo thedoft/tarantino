@@ -1,0 +1,48 @@
+.header {
+  min-height: 600px;
+  height: 100vh;
+  background-color: black;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  box-shadow: black 0 5px 5px;
+}
+
+.header__main-illustration {
+  position: absolute;
+  top: 0;
+  right: 50px;
+  height: calc(100% - 100px);
+  width: 30%;
+  box-sizing: border-box;
+  background-image: url(../images/tarantino-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: white 1px solid;
+  margin: 50px 0;
+  box-shadow: #9f0000 3px -3px 3px;
+}
+
+.header__subtitle {
+  color: white;
+  margin: 0 0 50px 50px;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: normal;
+  text-decoration: #9f0000 underline;
+  z-index: 1;
+}
+
+.header__title {
+  color:#9f0000;
+  text-transform: uppercase;
+  text-shadow: white 5px 5px 5px;
+  margin: 0 0 50px 50px;
+  line-height: 105px;
+  font-size: 105px;
+  font-weight: bold;
+  z-index: 1;
+  width: 750px;
+}
