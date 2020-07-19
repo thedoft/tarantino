@@ -1,7 +1,7 @@
 .logo {
   width: 100px;
   height: 100px;
-  background-image: url(../images/logo.jpg);
+  background-image: url(../../images/logo.jpg);
   background-size: cover;
   border: #9f0000 solid 1px;
   box-sizing: border-box;

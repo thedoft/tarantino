@@ -5,10 +5,10 @@
   align-items: center;
   padding: 100px 0;
   background:
-    url(../images/jules.png) no-repeat top right,
-    url(../images/vinsent.png) no-repeat top left,
-    url(../images/aldo.png) no-repeat bottom left,
-    url(../images/doctor.png) no-repeat bottom right;
+    url(../../images/jules.png) no-repeat top right,
+    url(../../images/vinsent.png) no-repeat top left,
+    url(../../images/aldo.png) no-repeat bottom left,
+    url(../../images/doctor.png) no-repeat bottom right;
   overflow: hidden;
   }
 
